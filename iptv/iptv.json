@@ -1,0 +1,23 @@
+{
+  "id": 17226421,
+  "name": "iptv",
+  "target": "branch",
+  "source_type": "Repository",
+  "source": "bibou2487/iptv",
+  "enforcement": "disabled",
+  "conditions": {
+    "ref_name": {
+      "exclude": [],
+      "include": []
+    }
+  },
+  "rules": [
+    {
+      "type": "deletion"
+    },
+    {
+      "type": "non_fast_forward"
+    }
+  ],
+  "bypass_actors": []
+}
